@@ -19,8 +19,8 @@ def t(cn_text, en_text):
     return cn_text if st.session_state.lang == '中文' else en_text
 
 st.set_page_config(
-    page_title="ZTE Quality AI Hub", 
-    page_icon="🛡️", 
+    page_title="ZX Quality AI Dashboard", 
+    page_icon="📊", 
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -49,7 +49,7 @@ st.markdown("""
 st.sidebar.radio("Language / 语言", ['中文', 'English'], key='lang', horizontal=True)
 st.sidebar.markdown("---")
 
-st.title(t("中兴质量管理看板", "ZTE Quality Management Dashboard"))
+st.title(t("中兴质量管理看板", "ZX Quality Management Dashboard"))
 st.markdown("---")
 
 # ==========================================
