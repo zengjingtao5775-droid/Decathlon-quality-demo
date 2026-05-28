@@ -1,1 +1,0 @@
-# Decathlon-quality-demo
